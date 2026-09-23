@@ -1,28 +1,28 @@
 searches:
-  # Apartamente 3 camere de inchiriat in Cluj
-  - name: "Cluj - apartamente 3 camere"
-    url: "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/cluj-napoca/?search%5Bfilter_enum_rooms%5D%5B0%5D=three&search%5Bfilter_enum_rooms%5D%5B1%5D=four"
-    max_price: 5000
-    include_keywords: ["untold", "termen scurt", "regim hotelier", "cateva zile", "festival", "weekend", "inchiriez perioada"]
-    exclude_keywords: ["cumpar", "caut", "cump"]
-
-  # Apartamente 3+ camere - fara filtre de keywords (sa nu pierzi nimic)
-  - name: "Cluj - apartamente 3 camere (toate)"
-    url: "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/cluj-napoca/?search%5Bfilter_enum_rooms%5D%5B0%5D=three&search%5Bfilter_enum_rooms%5D%5B1%5D=four"
+  # Apartamente 3+ camere in Cluj-Napoca (filtrate prin keywords)
+  - name: "Cluj - apartamente 3+ camere"
+    url: "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/cluj-napoca/"
     max_price: 1500
-    include_keywords: []
+    include_keywords: ["3 camere", "4 camere", "trei camere", "patru camere", "3camere"]
     exclude_keywords: ["cumpar", "caut", "cump"]
 
-  # Case de inchiriat in Cluj (poate gasesti o casa intreaga)
+  # Apartamente cu keywords Untold / termen scurt (orice nr camere)
+  - name: "Cluj - cazare festival"
+    url: "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/cluj-napoca/"
+    max_price: 5000
+    include_keywords: ["untold", "termen scurt", "regim hotelier", "festival", "cateva zile", "inchiriez perioada"]
+    exclude_keywords: ["cumpar", "caut"]
+
+  # Case de inchiriat in Cluj-Napoca
   - name: "Cluj - case de inchiriat"
     url: "https://www.olx.ro/imobiliare/case-de-inchiriat/cluj-napoca/"
     max_price: 5000
-    include_keywords: ["untold", "termen scurt", "regim hotelier", "festival", "weekend", "inchiriez perioada"]
+    include_keywords: []
     exclude_keywords: ["cumpar", "caut"]
 
-  # Judetul Cluj (nu doar orasul - poate gasesti ceva la 20 min)
-  - name: "Judet Cluj - apartamente 3 camere"
-    url: "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/cluj/?search%5Bfilter_enum_rooms%5D%5B0%5D=three&search%5Bfilter_enum_rooms%5D%5B1%5D=four"
+  # Judetul Cluj - apartamente 3+ camere
+  - name: "Judet Cluj - apartamente 3+ camere"
+    url: "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/cluj-judet/"
     max_price: 1200
-    include_keywords: []
+    include_keywords: ["3 camere", "4 camere", "trei camere", "patru camere", "3camere"]
     exclude_keywords: ["cumpar", "caut", "cump"]
