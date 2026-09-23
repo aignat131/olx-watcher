@@ -1,0 +1,6 @@
+searches:
+  - name: "Untold Cluj - apartamente"
+    url: "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/cluj-napoca/"
+    max_price: 500
+    include_keywords: []
+    exclude_keywords: ["cumpar", "caut"]
